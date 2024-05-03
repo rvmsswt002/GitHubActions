@@ -15,5 +15,5 @@ jobs:
           uses: Azure/pipelines@v1
           with: 
            azure-devops-project-url: 'https://dev.azure.com/rvmado/NVS_EH'
-           azure-pipeline-name: 'azure-pipelines-action'
+           azure-pipeline-name: 'rvmsswt002.GitHubActions'
            azure-devops-token: '${{ secrets.AZURE_DEVOPS_TOKEN }}'
